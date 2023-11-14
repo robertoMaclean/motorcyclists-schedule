@@ -1,0 +1,27 @@
+.block {
+	padding: 10px;
+	border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+}
+
+.block-no-avaible {
+	background-color: red;
+  color: white;
+}
+
+.block-locked {
+  background-color: green;
+  color: white;
+} 
+
+.column {
+  float: left;
+  width: 14.285%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
